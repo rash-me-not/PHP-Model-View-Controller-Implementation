@@ -1,0 +1,15 @@
+{% extends 'layout.twig' %}
+
+{% block title %}
+After Login Page
+{% endblock %}
+
+{% block content %}
+<section id="section-about" class="bg-grey">
+<h2> Welcome {{Message}}</h2>
+<h3> {{Player}}</h3>
+Last Login Time = {{Session.Session_start_time}}
+
+</br></br></br></br></br>
+</section>
+{% endblock %}

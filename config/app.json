@@ -1,0 +1,8 @@
+{
+    "db": {
+        "user": "root",
+      "password": "root@1234"
+
+    },
+    "log": "/temp/AGS.log"
+}

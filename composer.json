@@ -1,0 +1,17 @@
+{
+    "name": "steve/cs547_project01_mishra_rashmita",
+    "description": "Mishras cool project",
+    "type": "project",
+    "require": {
+        "twbs/bootstrap": "^4.1",
+        "twig/twig": "^2.5",
+        "monolog/monolog": "^1.23"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "AztecGameStudios\\": "src"
+        }
+    }
+
+}

@@ -1,0 +1,40 @@
+{
+    "/about": {
+        "controller": "Main",
+        "method": "about"
+    },
+    "/login": {
+        "controller": "Login",
+        "method": "login",
+        "params": {
+            "username": "string",
+            "password": "string"
+        }
+        },
+    "/register": {
+        "controller": "Register",
+        "method": "register"
+            },
+    "/games": {
+        "controller" : "Main",
+        "method": "game_release"
+    },
+    "/games/:id" : {
+        "controller" : "Game",
+        "method" : "about_game",
+        "login" : true,
+        "params" : {
+            "id": "number"
+        }
+    },
+
+    "/" : {
+        "controller" : "Main",
+        "method" : "get"
+    },
+
+    "/index.php" : {
+        "controller" : "Main",
+        "method" : "get"
+    }
+}
